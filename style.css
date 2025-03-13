@@ -1,0 +1,18 @@
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(120deg, #ef649e, #ff758c, #e7c2d2);
+  background-size: 300%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-position .6s ease-in-out;
+}
+
+.button:hover {
+  background-position: 100%;
+}
